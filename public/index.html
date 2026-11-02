@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Демонстрационный сайт бистро с меню и формой бронирования.">
+<meta name="robots" content="noindex,nofollow">
+<title>SOL — городское бистро — демонстрационный проект</title>
+<link rel="stylesheet" href="assets/common.css?v=2">
+<script defer src="assets/common.js"></script>
+</head>
+<body class="sol" data-site="sol">
+<div class="demo-strip">Демонстрационный проект для портфолио · <a href="https://portfolio7.ru/portfolio-demos/">все работы</a>
+</div>
+<header class="site-header shell"><a class="logo" href="./">SOL</a><nav class="nav" id="main-nav" aria-label="Основная навигация"><a href="#menu">Меню</a><a href="#story">О бистро</a><a href="#visit">Бронирование</a><a href="https://portfolio7.ru/portfolio-demos/">Все проекты ↗</a></nav><div class="header-actions">
+<button class="button" data-open="request-dialog">Забронировать <span>↗</span></button><button class="menu-toggle" type="button" data-menu-toggle aria-controls="main-nav" aria-expanded="false">Меню ☰</button>
+</div></header><main><section class="hero image sol-img"><div class="shell">
+<p class="eyebrow section-kicker">Городское бистро / концепция</p>
+<h1>Вечер, который<br>хочется продлить.</h1>
+<p class="lead">Сезонная кухня, тёплый свет и место за столом для своих.</p>
+<div class="hero-actions">
+<button class="button" data-open="request-dialog">Выбрать стол <span>↗</span></button><a class="button light" href="#menu">Посмотреть меню ↘</a>
+</div>
+</div></section><section class="section shell" id="story"><div class="split">
+<div>
+<p class="eyebrow section-kicker">Немного о нас</p>
+<h2>Вкусно. Неспешно.<br>Вместе.</h2>
+</div>
+<div>
+<p class="lead">SOL — образ бистро для коротких встреч и длинных разговоров. В центре внимания — сезонные продукты, понятная еда и комфортная атмосфера.</p>
+<a href="#menu" class="text-link" style="margin-top:25px">Заглянуть в меню ↗</a>
+</div>
+</div></section><section class="section shell section-rule" id="menu"><div class="section-head">
+<div>
+<p class="eyebrow section-kicker">В меню / пример</p>
+<h2>Время за столом.</h2>
+</div>
+<p>Небольшое меню, в котором каждый найдёт что-то своё.</p>
+</div>
+<div class="menu-list">
+<div class="dish">
+<div>
+<h3>Томаты и страчателла</h3>
+<p>базилик, оливковое масло, закваска</p>
+</div>
+<b>720 ₽</b>
+</div>
+<div class="dish">
+<div>
+<h3>Паста с лесными грибами</h3>
+<p>пармезан, тимьян, сливочный соус</p>
+</div>
+<b>890 ₽</b>
+</div>
+<div class="dish">
+<div>
+<h3>Буррата и персик</h3>
+<p>руккола, фисташка, мёд</p>
+</div>
+<b>790 ₽</b>
+</div>
+<div class="dish">
+<div>
+<h3>Рыба на гриле</h3>
+<p>лимон, молодые овощи, травы</p>
+</div>
+<b>1 290 ₽</b>
+</div>
+<div class="dish">
+<div>
+<h3>Тёплый хлеб</h3>
+<p>взбитое масло, морская соль</p>
+</div>
+<b>320 ₽</b>
+</div>
+<div class="dish">
+<div>
+<h3>Баскский чизкейк</h3>
+<p>ягоды, ваниль, сливки</p>
+</div>
+<b>560 ₽</b>
+</div>
+</div></section><section class="quote-wrap" id="visit"><div class="shell">
+<p class="quote">«За хорошим столом всегда находится время друг для друга».</p>
+<div style="text-align:center;margin-top:32px"><button class="button light" data-open="request-dialog">Выбрать дату и время ↗</button></div>
+</div></section></main><footer class="footer"><div class="shell">
+<div class="footer-top">
+<div>
+<a href="./" class="logo">SOL</a><p class="lead" style="font-size:12px;margin-top:12px">Бистро для встреч и долгих разговоров.</p>
+</div>
+<div class="footer-nav">
+<a href="#menu">Меню</a><a href="#story">О бистро</a><a href="#visit">Бронирование</a><a href="https://portfolio7.ru/portfolio-demos/">Все проекты ↗</a>
+</div>
+</div>
+<small>Демонстрационный проект для портфолио. Название и содержание вымышлены.</small>
+</div></footer><dialog id="request-dialog" aria-labelledby="request-title"><div class="dialog-inner">
+<div class="dialog-head">
+<div>
+<p class="eyebrow">Демонстрационная форма</p>
+<h2 id="request-title">Стол для вас</h2>
+</div>
+<button class="icon-button" type="button" data-close aria-label="Закрыть">×</button>
+</div>
+<form class="form" data-request>
+<label>Как к вам обращаться<input name="name" maxlength="80" placeholder="Например, Гость" required></label><label>Выберите вариант<select name="service" required><option>Ужин в бистро</option>
+<option>Обед в бистро</option>
+<option>Особый случай</option></select></label><label>Желаемая дата<input type="date" name="date" required></label><label>Время<select name="time" required><option>10:00</option>
+<option>12:00</option>
+<option>14:00</option>
+<option>16:00</option>
+<option>18:00</option>
+<option>20:00</option></select></label><label>Количество гостей<select name="guests"><option>1</option>
+<option selected>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option></select></label><p class="form-note">Это демонстрация: не указывайте настоящие контактные или платёжные данные. Заявка сохраняется на сервере примерно на неделю и не отправляется бизнесу.</p>
+<button class="button" type="submit">Отправить демо-заявку <span>↗</span></button><p class="status" data-status role="status" aria-live="polite"></p>
+</form>
+</div></dialog>
+</body>
+</html>
